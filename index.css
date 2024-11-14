@@ -1,0 +1,83 @@
+@import url("public.css");
+
+/*********************** 页面主内容 ***********************/
+.page {
+	flex: 1 1 auto;
+	-webkit-flex: 1 1 auto;
+}
+
+.top-container {
+	background: url(../image/pcbg.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.title {
+	color: #FFFFFF;
+}
+
+.sub-title {
+	font-size: 28px;
+	color: #FFFFFF;
+}
+
+.down-btn-box .col-xs-12, .down-btn-box .col-sm-6 {
+	padding: 0;
+}
+
+.down-btn {
+	width: 95%;
+	padding: 15px 20px;
+	background-color: rgba(8, 170, 212, .8);
+	border-radius: 10px;
+	cursor: pointer;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.down-btn:hover {
+	color: #FFFFFF;
+	background-color: rgba(56, 188, 204, .8);
+}
+
+.down-btn:active {
+	-webkit-transform: translateY(4px);
+	-moz-transform: translateY(4px);
+	-ms-transform: translateY(4px);
+	transform: translateY(4px);
+}
+
+.down-img {
+	width: 25px;
+	height: 25px;
+}
+
+.down-name {
+	font-size: 18px;
+	color: #FFFFFF;
+}
+
+.bottom-container {
+	color: #000000;
+}
+
+.bottom-title {
+	margin: 20px 0 10px;
+	font-size: 24px;
+}
+
+.more {
+	color: #FFFFFF;
+	display: none;
+}
+
+.more span, .more i {
+	font-size: 14px;
+}
+
+.rotate {
+	-ms-transform: rotate(-180deg); 	/* IE 9 */
+	-moz-transform: rotate(-180deg); 	/* Firefox */
+	-webkit-transform: rotate(-180deg); /* Safari 和 Chrome */
+	-o-transform: rotate(-180deg); 	/* Opera */
+	transform: rotate(-180deg);
+}

@@ -2,7 +2,7 @@
 <html>
    <head>
     <meta charset="utf-8">
-    <link rel="shortcut icon" href="https://bigjackson.us.kg/img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
     <title>加速器</title>
        <style type="text/css">
         .top{
@@ -21,7 +21,7 @@
     list-style-type: none;
     white-space:nowrap;
     overflow: hidden;
-    margin-left: 5%;
+    margin-left: 0;
     /* margin-top: 0;          */
     padding: 0;
 
@@ -67,71 +67,157 @@
 }
 body{
     background:#eff3f5;
+    padding-top: 60px;
 }
-.larger-than-h1 {
-    font-size: 3em;
-    line-height: 1.5;
+    .larger-than-h1 {
+    font-size: 3.2em;
+    line-height: 1.3;
+    font-weight: 700;
     }
     img {
         max-width: 100%;
         height: auto;
     }
-    
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 16px;
+    }
+    .hero {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+    }
+    .section {
+        margin: 32px 0;
+    }
+    .section h2 {
+        text-align: center;
+        color: #0f1623;
+        margin-bottom: 12px;
+    }
+    .section p {
+        color: #2c3e50;
+        font-size: 1.05em;
+        line-height: 1.8;
+        text-align: center;
+        max-width: 900px;
+        margin: 0 auto 12px;
+    }
+    .section img {
+        display: block;
+        margin: 0 auto;
+        border-radius: 12px;
+        box-shadow: 0 8px 24px rgba(15, 22, 35, 0.08);
+    }
+    .logo-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+        gap: 16px;
+        align-items: center;
+    }
+    .logo-grid a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #ffffff;
+        border-radius: 8px;
+        padding: 12px;
+        box-shadow: 0 4px 16px rgba(15, 22, 35, 0.06);
+        transition: transform .2s ease, box-shadow .2s ease;
+    }
+    .logo-grid a:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 8px 24px rgba(15, 22, 35, 0.12);
+    }
+    .btn {
+        display: inline-block;
+        padding: 10px 18px;
+        border-radius: 10px;
+        background: linear-gradient(90deg, #1E90FF 0%, #1fcbe2 100%);
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: 600;
+        box-shadow: 0 8px 20px rgba(30, 144, 255, 0.25);
+        transition: transform .2s ease, box-shadow .2s ease, opacity .2s ease;
+    }
+    .btn:hover {
+        transform: translateY(-1px);
+        box-shadow: 0 12px 28px rgba(30, 144, 255, 0.3);
+        opacity: .95;
+    }
+        
        </style>
+        </head>
         <body>
             <div class="top">
-                   <center> 
+                   <div class="container">
                     <ul>
                     <li><a href=""><b>首页</b></a></li>
                     <li><a href="about"><b>FAQ</b></a><ul>
-                    <li><a href="https://bigjackson.us.kg/jsq/about/1/">如何使用VPN</a>
-                    <li><a href="https://bigjackson.us.kg/jsq/about/2/">加速器自动断开,闪退,无法使用问题</a>
+                    <li><a href="/about/1/">如何使用VPN</a>
+                    <li><a href="/about/2/">加速器自动断开,闪退,无法使用问题</a>
                     </li></ul>
                     <li><a href="https://space.bilibili.com/1549550569?spm_id_from=333.1007.0.0"><b>B站主页</b></a></li>
-                    <li><a href="https://bigjackson.us.kg"><b>博客官网</b></a>
-                    <li><a href="https://gf.bilibili.com/item/detail/1108769032"><b>购买链接</b></a>
+                    <li><a href="/"><b>博客官网</b></a>
+                    <li><a href="/buy/"><b>购买链接</b></a>
                     </li>
                 </ul>
-                    </center>      
+                    </div>      
             </div>
             
-            <div style="display: flex; align-items: center;">
-                <p class="larger-than-h1" style="margin-right: 10px;">网络加速器</p>
-                <a href="https://gf.bilibili.com/item/detail/1108769032"><h2>购买链接</h2></a>
-              </div>
-            <h2>一键连接 多国线路</h2>
-                <img border="0" src="https://bigjackson.us.kg/jsq/left.png" /><br>
-            <h2>智能、快速、稳定</h2>
-            <p>智能分流技术，畅快上网体验，完美支持游戏和各种软件网站，独享宽带，国际骨干宽带节点，无延迟更畅快！</p>
-                <img border="0" src="https://bigjackson.us.kg/jsq/index_1.png" width="600" height="500" /><br>
-            <h2>多平台，多设备支持</h2>
-            <p>自主开发各平台客户端，无需繁琐的设置。一个账号畅行Windows、iOS、Android和mac各终端平台，突破办公室/学校/酒店等公共场所网络的限制。</p>
-                <img border="0" src="https://bigjackson.us.kg/jsq/index_2.png" width="600" height="500" /><br>
+            <div class="container section">
+                <div class="hero" style="justify-content: space-between;">
+                    <p class="larger-than-h1">网络加速器</p>
+                    <a class="btn" href="/buy/">购买链接</a>
+                </div>
+            </div>
+
+            <div class="container section">
+                <h2>一键连接 多国线路</h2>
+                <img border="0" src="/left.png" />
+            </div>
+
+            <div class="container section">
+                <h2>智能、快速、稳定</h2>
+                <p>智能分流技术，畅快上网体验，完美支持游戏和各种软件网站，独享宽带，国际骨干宽带节点，无延迟更畅快。</p>
+                <img border="0" src="/index_1.png" />
+            </div>
+
+            <div class="container section">
+                <h2>多平台，多设备支持</h2>
+                <p>自主开发各平台客户端，无需繁琐设置。一个账号畅行 Windows、iOS、Android 和 mac 多终端平台，突破公共网络限制。</p>
+                <img border="0" src="/index_2.png" />
+            </div>
             <style>
                 img{height: auto; width: auto\9; }
             </style>
-            <h2>流畅使用以下软件</h2>
-            <p>PornHub</p>
-            <a href="https://cn.pornhub.com">
-                <img border="0" src="https://bigjackson.us.kg/jsq/Pornhub-logo.svg" width="400" height="500" /></a><br>
-            <p>Xvideos</p>
-            <a href="https://www.xvideos.com">
-                <img border="0" src="https://bigjackson.us.kg/jsq/Xvideos-logo.svg" width="400" height="500" /></a><br>
-            <p>YouTube</p>
-            <a href="https://www.youtube.com">
-                <img border="0" src="https://bigjackson.us.kg/jsq/YouTube-logo.svg" width="400" height="500" /></a><br>
-            <p>X</p>
-            <a href="https://x.com">
-                <img border="0" src="https://bigjackson.us.kg/jsq/X-logo.png" width="400" height="500" /></a><br>
-            <p>Twitter</p>
-            <a href="https://www.twitter.com">
-                <img border="0" src="https://bigjackson.us.kg/jsq/Twitter-logo.svg" width="400" height="500" /></a><br>
-            <p>Instagram</p>
-            <a href="https://www.instagram.com">
-                <img border="0" src="https://bigjackson.us.kg/jsq/Instagram-logo.svg" width="400" height="500" /></a><br>
-            <p>Facebook</p>
-            <a href="https://www.facebook.com">
-                <img border="0" src="https://bigjackson.us.kg/jsq/Facebook-logo.svg" width="400" height="500" /></a><br>
+            <div class="container section">
+                <h2>流畅使用以下软件</h2>
+                <div class="logo-grid">
+                    <a href="https://cn.pornhub.com">
+                        <img border="0" src="/Pornhub-logo.svg" alt="PornHub" />
+                    </a>
+                    <a href="https://www.xvideos.com">
+                        <img border="0" src="/Xvideos-logo.svg" alt="Xvideos" />
+                    </a>
+                    <a href="https://www.youtube.com">
+                        <img border="0" src="/YouTube-logo.svg" alt="YouTube" />
+                    </a>
+                    <a href="https://x.com">
+                        <img border="0" src="/X-logo.png" alt="X" />
+                    </a>
+                    <a href="https://www.twitter.com">
+                        <img border="0" src="/Twitter-logo.svg" alt="Twitter" />
+                    </a>
+                    <a href="https://www.instagram.com">
+                        <img border="0" src="/Instagram-logo.svg" alt="Instagram" />
+                    </a>
+                    <a href="https://www.facebook.com">
+                        <img border="0" src="/Facebook-logo.svg" alt="Facebook" />
+                    </a>
+                </div>
+            </div>
             
             <style>
                 footer {
@@ -143,9 +229,8 @@ body{
                 }
           </style>
             <footer id="v18"> 
-                <p id="v19">COPYRIGHT © 2020 - 2024 BIGJACKSON.ALL RIGHTS RESERVED.
+                <p id="v19">COPYRIGHT © 2020 - 2025 BIGJACKSON.ALL RIGHTS RESERVED.
              BigJackson 版权所有</p> 
                </footer> 
         </body>
-    </head>
 </html>

@@ -1,0 +1,12 @@
+User-agent: *
+Disallow:
+Allow: /
+
+# Explicitly allow common crawlers
+User-agent: Googlebot
+Disallow:
+
+User-agent: Baiduspider
+Disallow:
+
+Sitemap: https://jsq.bigjackson.top/sitemap.xml
